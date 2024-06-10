@@ -1,8 +1,9 @@
 import pika
 import json
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, time
 from faker import Faker
+from time import sleep
 
 # Initialize the Faker library
 fake = Faker()
@@ -40,6 +41,6 @@ while True:
                           routing_key='inventory_updates',
                           body=json.dumps(fake_update))
     print("Sent:", fake_update)
-    time.sleep(1)  # Simulate updates every second
+    sleep(1)  # Simulate updates every second
 
 connection.close()
