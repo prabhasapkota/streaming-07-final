@@ -1,7 +1,7 @@
 import pika
 import json
 import random
-from datetime import datetime, time
+from datetime import datetime
 from faker import Faker
 from time import sleep
 
