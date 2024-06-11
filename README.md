@@ -46,6 +46,13 @@ To create a project where a producer and consumer are connected via RabbitMQ, by
    * outgoing_email_address = "your_email@example.com"
    * outgoing_email_password = "your_password"
 
+ ## Screenshots
+ ![Alt text](<image showing two working terminals.png>)
+ ![Alt text](<email alerts.png>)
+ ![Alt text](<datasets generated using faker.png>)
+
+
+
 
 
 
