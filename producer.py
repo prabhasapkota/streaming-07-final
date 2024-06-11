@@ -1,3 +1,13 @@
+""" 
+producer.py
+Author: Prabha Sapkota
+Date: 06/11/24
+
+This will begin sending messages to RabbitMQ server.
+
+
+"""
+
 import pika
 import json
 import random

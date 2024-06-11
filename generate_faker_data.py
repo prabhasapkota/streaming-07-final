@@ -1,3 +1,12 @@
+""" 
+generate_faker_data.py
+Author: Prabha Sapkota
+Date: 06/11/24
+
+This will generate fake datasets and save to "inventory_updates.csv".
+
+
+"""
 import csv
 import random
 from datetime import datetime, timedelta

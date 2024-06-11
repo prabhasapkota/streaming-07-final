@@ -1,5 +1,5 @@
 """ 
-producer.py
+consumer.py
 Author: Prabha Sapkota
 Date: 06/11/24
 
