@@ -1,3 +1,18 @@
+""" 
+producer.py
+Author: Prabha Sapkota
+Date: 06/11/24
+
+This will receive and process messages from RabbitMQ server.
+
+
+"""
+
+
+
+
+
+
 import pika
 import json
 import smtplib
