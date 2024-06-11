@@ -1,6 +1,7 @@
 # streaming-07-final
 * Author: Prabha Sapkota
 * Date: 06/11/2024
+* GithHub Repository: https://github.com/prabhasapkota/streaming-07-final
 
 ## Objective: 
 To create a project where a producer and consumer are connected via RabbitMQ, by generating simulated inventory updates (including new items added, items removed, and item quantities updated) using the Faker library to generate fake dataset.The aim is to explore the effectiveness and feasibility of the RabbitMQ messaging system in handling real-time inventory management with synthetic data.
